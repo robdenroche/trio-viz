@@ -23,7 +23,8 @@ def parse_args():
     )
 
     parser.add_argument(
-        "-k", "--karyotype", type=str, help="Path to the karyotype file"
+        "-k", "--karyotype", type=str, help="Path to the karyotype file", 
+        default="./karyotype/hg38_karyotype.tsv"
     )
 
     parser.add_argument("-o", "--output", type=str, help="Path to the output file")
