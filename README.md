@@ -2,7 +2,7 @@
 
 
 
-### Sample Data
+### Sample data
 1000 Genome Trios were downloaded from UCSC (here)[https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=varRep&hgta_track=tgpTrios&hgta_table=tgpHG02024_VN049_KHV&hgta_doSchema=describe+table+schema].
 
 Trios from six different populations were available:
@@ -12,3 +12,12 @@ Trios from six different populations were available:
 * CEU - CEPH Utah
 * CHS - Southern Han Chinese
 * MXL - Mexican Ancestry from Los Angeles
+
+
+And the karyotype band data is also from UCSC (here)[https://genome.ucsc.edu/cgi-bin/hgTables?db=hg38&hgta_group=map&hgta_track=cytoBand&hgta_table=cytoBand]
+
+
+### Future features
+* Gene labels
+* Colour selector
+* Minimum region size slider
